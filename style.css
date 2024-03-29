@@ -4,10 +4,12 @@ body {
 
 input {
     height: 22px;
+    width: 280px;
     padding: 8px;
     font-size: 1.2em;
-    margin: 15px 0px;
+    margin: 15px 70px;
     border-radius: 5px;
+    text-align: right;
 }
 
 input[type=number]:focus {
@@ -30,12 +32,21 @@ button:hover {
     background-color: #0069d9;
     box-shadow: 0 8px 18px 0 rgba(0,0,0,0.2);
 }
+
+h1 {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    font-size: 2.4rem;
+}
+
 .container {
-    width: 600px;
+    width: 700px;
+    height: 500px;
     background-color: #d3d3d3;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
     margin: auto;
     padding: 40px;
     border-radius: 4px;
@@ -46,8 +57,27 @@ button:hover {
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 30px;
     row-gap: 20px;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.history {
+    width: 300px;
+    background-color: #000;
+
+    
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+    color: #fff;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.last-operations {
+    margin-top: 20px;
 }
